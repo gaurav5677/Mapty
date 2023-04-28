@@ -1,0 +1,23 @@
+{
+  "name": "mapty",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gaurav5677/Mapty.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gaurav5677/Mapty/issues"
+  },
+  "homepage": "https://github.com/gaurav5677/Mapty#readme",
+  "dependencies": {
+    "l": "^0.6.0",
+    "live-server": "^1.2.2"
+  }
+}
