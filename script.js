@@ -25,7 +25,8 @@ if (navigator.geolocation)
       console.log(`https://www.google.com/maps/@${latitude},${longitude}`);
       // this l here , is the main function that Leaflet gives us as  an entry point 
 
-      const coords = [latitude, longitude]
+      const coords = [latitude, longitude];
+
       const map = L.map('map').setView(coords, 13);
 
       L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
