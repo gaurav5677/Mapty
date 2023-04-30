@@ -88,6 +88,8 @@ form.addEventListener('submit', function (e) {
          closeOnClick: false,
          className: 'running-popup',
       }))
+
+
       .setPopupContent('Workout')
       .openPopup();
 })
